@@ -218,7 +218,7 @@ class BedrockConnectHelper:
 
     def set_guardrail_config(self, guardrail_configs):
         if guardrail_configs:
-            self.guardrail_configs = guardrail_configs
+            self.guardrailConfig = guardrail_configs
 
         return self
 
